@@ -7,6 +7,7 @@ public class Read {
 	
 	private Scanner x;
 	
+	//create new phile
 	public void openFile(){
 		try{
 			x = new Scanner(new File("phile.txt"));
@@ -16,6 +17,7 @@ public class Read {
 		}
 	}
 	
+	//reads file
 	public void readFile(){
 		while(x.hasNext()){
 			
@@ -27,6 +29,7 @@ public class Read {
 		}
 	}
 	
+	//closes file
 	public void closeFile(){
 		x.close();
 	}

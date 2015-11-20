@@ -2,7 +2,7 @@ package five;
 
 /* Mackenzie Redman
  * 11/19/15
- * 
+ *
  * Deitel book
  */
 
@@ -21,6 +21,7 @@ public class Somain {
 		new Somain();
 	}
 	
+	//constructor, calls methods
 	Somain() throws Exception 
 	{
 		readFile("files.txt");
@@ -51,6 +52,7 @@ public class Somain {
 		} 
 	}
 	
+	//reads file
 	void readFile(String fileName)
 		throws IOException
 	{
@@ -65,11 +67,13 @@ public class Somain {
 			line = reader.readLine();
 			ourValue = Integer.parseInt(line);
 			
+			//calls create class
 			Create g = new Create();
 			g.openFile();
 			g.addRecords();
 			g.closeFile();
 			
+			//calls Read class
 			Read r = new Read();
 			r.openFile();
 			r.readFile();
@@ -85,6 +89,7 @@ public class Somain {
 		}
 	}
 	
+	//writes file
 	void writeFile(String fileName)
 		throws IOException
 	{
