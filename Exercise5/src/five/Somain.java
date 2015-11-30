@@ -2,7 +2,7 @@ package five;
 
 /* Mackenzie Redman
  * 11/19/15
- *
+ * thenewboston youtube tutorial
  * Deitel book
  */
 
@@ -17,8 +17,8 @@ import java.io.FileNotFoundException;
 
 public class Somain {
 
-	public static void main(String[] args) throws Exception {
-		new Somain();
+	public static void mountian() throws Exception {
+		
 	}
 	
 	//constructor, calls methods
