@@ -1,11 +1,5 @@
 package five;
 
-/* Mackenzie Redman
- * 11/19/15
- * thenewboston youtube tutorial
- * Deitel book
- */
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
